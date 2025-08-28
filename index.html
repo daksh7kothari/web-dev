@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daksh Kothari</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/09e383142a.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="stock/daksh.png">
+
+</head>
+<body>
+  <div class="daksh-page">
+    <nav>
+      <div class="navbar">
+        <div id="home" class="toplogo">
+          <img src="stock/top-logo.png" alt="dakshkothari77">
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+          &#9776;
+        </div>
+
+        <div class="topnav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#profiles">Profiles</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reach">Reach</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const topnav = document.querySelector(".topnav");
+
+      hamburger.addEventListener("click", () => {
+        topnav.classList.toggle("active");
+      });
+    </script>
+
+
+      <section class="hero" id="about">
+          <div class="hero-content">
+              <p class="intro">Hi, I'm Daksh,</p>
+              <div class="main"><h1>I’m a Web <span> Developer</span></h1></div>
+              <p class="description">
+                  I’m currently pursuing a B.Sc. in Computer Science with specialization in AI & ML at SRM Kattankulathur.
+                  Although I could not clear JEE, that setback actually pushed me closer to what I truly love — computers and technology.
+                  I enjoy web development, coding, and exploring artificial intelligence.
+                  I’ve worked on projects like building websites and experimenting with AI-based applications.
+                  I believe in learning from failures and turning them into opportunities for growth.
+                  My goal is to maintain a CGPA of 9.5+ while building strong technical and problem-solving skills.
+                  Beyond academics, I enjoy taking part in clubs, projects, and collaborations that challenge my creativity.
+                  I see myself as someone who is passionate, adaptable, and ready to make an impact in the tech world.
+              </p>
+              <a href="#projects" class="btn">View My Projects</a>
+          </div>
+
+          <div class="hero-image">
+              <img src="stock/daksh.png" alt="Saul">
+          </div>
+      </section>
+      <section class="projects-main" id="projects">
+          <div class="main header"><h1>Projects</h1></div>
+          <div class="projects-parent">
+              <div class="projects-block">
+                  <img src="stock/urbancolors.png" alt="">
+                  <h3>Urban Colors</h3>
+                  <p>Worked as a full time Intern where my role was to make a full stack website for them</p>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/cinnamon.jpg" alt="">
+                  <h3>Cinnamon Inc</h3>
+                  <p>Worked as a full time Intern where my role was a data analyst</p>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/1.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/2.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/6.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/3.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/4.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+              <div class="projects-block">
+                  <img src="stock/5.png" alt="">
+                  <h3>Content Unavailable :(</h3>
+              </div>
+          </div>
+      </section>
+      <section class="skills" id="skills">
+          <div class="main header"><h1>My Skills</h1></div>
+          <p>Every skill listed here represents hours of learning, practice, and passion for technology. I believe in continuous growth, and I’m always eager to push these numbers higher.</p>
+          
+          <div class="skills-container">
+              <!-- Row 1 -->
+              <div class="skill-box">
+                  <span>HTML</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 90%;">90%</div>
+                  </div>
+              </div>
+              <div class="skill-box">
+                  <span>CSS</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 90%;">90%</div>
+                  </div>
+              </div>
+
+              <!-- Row 2 -->
+              <div class="skill-box">
+                  <span>SQL</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 85%;">85%</div>
+                  </div>
+              </div>
+              <div class="skill-box">
+                  <span>Python</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 80%;">80%</div>
+                  </div>
+              </div>
+
+              <!-- Row 3 -->
+              <div class="skill-box">
+                  <span>DJango</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 60%;">60%</div>
+                  </div>
+              </div>
+              <div class="skill-box">
+                  <span>others</span>
+                  <div class="bar">
+                  <div class="progress" style="width: 65%;">65%</div>
+                  </div>
+              </div>
+          </div>
+    </section>
+    <!-- FontAwesome CDN -->
+    <section class="profiles" id="profiles">
+      <div class="main header"><h1>My Profiles</h1></div>
+      <div class="profile-parent">
+        
+        <!-- Instagram -->
+        <div class="profile-block">
+          <i class="fa-brands fa-instagram icon"></i>
+          <h3>Instagram</h3>
+          <p>Follow me for updates & lifestyle.</p>
+          <a href="https://instagram.com/daksh7kothari" target="_blank" class="btn">Visit Profile →</a>
+        </div>
+        
+        <!-- GitHub -->
+        <div class="profile-block">
+          <i class="fa-brands fa-github icon"></i>
+          <h3>GitHub</h3>
+          <p>Check out my projects & repositories.</p>
+          <a href="https://github.com/daksh7kothari" target="_blank" class="btn">Visit Profile →</a>
+        </div>
+        
+        <!-- LeetCode -->
+        <div class="profile-block">
+          <i class="fa-solid fa-code icon"></i>
+          <h3>LeetCode</h3>
+          <p>Solving coding challenges daily.</p>
+          <a href="https://leetcode.com/daksh7kothari" target="_blank" class="btn">Visit Profile →</a>
+        </div>
+        
+        <!-- LinkedIn -->
+        <div class="profile-block">
+          <i class="fa-brands fa-linkedin icon"></i>
+          <h3>LinkedIn</h3>
+          <p>Connect with me professionally.</p>
+          <a href="https://www.linkedin.com/in/daksh7kothari/" target="_blank" class="btn">Visit Profile →</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact -->
+      <section class="contact-page" id="contact">
+        <div class="contact-blog">
+          <div class="main header"><h1>Contact Us</h1></div>
+          <div class="contact-parent">
+            <div class="contact-logo"><img src="stock/aaruush.png" alt="Team Logo"></div>
+            <div class="contact-content">
+              <h2>Aarush - Techno Management Fest</h2>
+              <h3>SRMIST</h3>
+              <h2>aaruush@srmist.edu.in</h2>
+            </div>
+          </div>
+          <div class="contact-parent">
+            <div class="contact-logo"><img src="stock/daksh.png" alt="Daksh Jain"></div>
+            <div class="contact-content">
+              <h2>Daksh Jain</h2>
+              <h3>Chennai - 600 013</h3>
+              <h3>+91 73974 29620</h3>
+              <h2>dakshkothari77@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-parent">
+            <div class="contact-logo"><img src="stock/team_envision_logo.jpg" alt="Daksh Jain"></div>
+            <div class="contact-content">
+              <h2>Team Envision</h2>
+              <h3>SRMIST</h3>
+              <h2>envision@aarush.in</h2>
+            </div>
+        </div>
+      </section>
+    </main>
+    <!-- reach --->
+    <section class="reach-container" id="reach">
+      <div class="main header"><h1>Reach Me</h1></div>
+      <div class="reach-parent">
+        <div class="reach-img"><img src="stock/top-logo.png"></div>
+        <div class="container">
+          <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-page">
+      <div class="footer">
+        <div class="footer-parent">
+          <h3>@Daksh7 2025. All Rights Reserved.</h3>
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/dakshoe/" target="_blank" ><i class="fa-brands fa-instagram f-icon"></i></a>
+            <a href="https://www.linkedin.com/in/daksh7kothari/" target="_blank"><i class="fa-brands fa-linkedin-in f-icon"></i></a>
+            <a href="https://www.youtube.com/@AaruushSRMIST" target="_blank"><i class="fa-brands fa-youtube f-icon"></i></a>
+            <a href="https://github.com/daksh7kothari" target="_blank"><i class="f-icon fa-brands fa-github"></i></a>
+          </div>
+          <h3>Designed & Developed by Daksh.</h3>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
